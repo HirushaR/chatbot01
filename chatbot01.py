@@ -109,6 +109,9 @@ if __name__ == '__main__':
 
         elif 'hello' in query:
             speak('Hello Sir')
+        elif 'hiii' in query:
+            speak('Hello Sir')
+
         elif 'command' in query:
             query = str(input('Command: '))
 
@@ -117,7 +120,7 @@ if __name__ == '__main__':
             sys.exit()
 
         elif 'play music' in query:
-            music_folder = 'E:\hiru\works\py\learn\machine\chat-bot\bot1'
+            music_folder = 'C:\ pyProject\ New folder'
             music = ['01', '02', '03', '04']
             random_music = music_folder + random.choice(music) + '.mp3'
             os.system(random_music)
